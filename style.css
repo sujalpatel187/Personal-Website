@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(75, 75, 104);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(211, 113, 205);
+    font-size: 1.05rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 12vh 0;
+
+}
+
+.firstSection>div {
+    width: 30%;
+    align-items: center;
+}
+
+.leftSection {
+    font-size: 2.7rem;
+}
+
+
+.perple {
+    color: rgb(152, 86, 214);
+}
+
+#element {
+    color: rgb(152, 86, 214);
+}
+
+.secondSection {
+    max-width: 80vW;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+
+.secondSection .project {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 10px;
+
+}
+
+.container p {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 0.8rem;
+}
+
+.card:hover {
+    background-color: #9086b4;
+    color: black;
+}
+
+.p1 {
+    width: 27%;
+    margin: 10px;
+    border: 2px white solid;
+}
+
+
+
+.p2 {
+    width: 27%;
+    margin: 10px;
+    border: 2px white solid;
+
+}
+
+.p3 {
+    width: 27%;
+    margin: 10px;
+    border: 2px white solid;
+
+}
+
+.text-gray {
+    color: gray;
+}
+
+main hr {
+    border: 0;
+    background: #4e4374;
+    HEIGHT: 1.2px;
+    margin: 40px 84px;
+}
+
+footer .ftmain {
+    background-color: rgb(0, 0, 33);
+    display: flex;
+    color: #fff;
+}
+
+footer .ftmain .ftleft {
+    margin: 0 0 0 120px;
+    width: 29%;
+    height: 50vh;
+}
+
+footer .ftmain .ftleft h1 {
+    margin-top: 20px;
+    font-size: 40px;
+    margin-left: 35px;
+}
+
+footer .ftmain .ftleft p {
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+footer .ftmain .ftleft p i {
+
+    color: rgb(126, 80, 168);
+    font-size: 25px;
+}
+
+footer .ftmain .ftleft button {
+    margin-top: 20px;
+    margin-left: 35px;
+    height: 40px;
+    width: 40%;
+    background: rgb(152, 86, 214);
+    color: #fff;
+    font-size: 15px;
+}
+
+footer .icon {
+    margin-left: 35px;
+}
+
+
+footer .icon i {
+    color: #fff;
+    padding-right: 7px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+footer .ftmain .ftright {
+    margin: 0 80px 0 10px;
+    width: 71%;
+    height: 50vh;
+}
+
+
+footer .ftmain .ftright input {
+    width: 90%;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #fff;
+    background: rgb(0, 0, 33);
+    font-size: 13px;
+    border: 2px solid #fff;
+}
+
+footer .ftmain .ftright textarea {
+    width: 90%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background: rgb(0, 0, 33);
+    font-size: 15px;
+    color: #fff;
+    border: 2px solid #fff;
+
+}
+
+footer .ftmain .ftright button {
+    width: 10%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background: rgb(152, 86, 214);
+    font-size: 15px;
+    color: #fff;
+}
